@@ -99,3 +99,4 @@ class B implements GCD {
         }
  }
  
+
