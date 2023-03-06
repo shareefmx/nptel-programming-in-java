@@ -1,0 +1,78 @@
+Week 6 : quiz 1
+
+
+1)d
+2)a,d
+3)c,d
+4)a
+5)a,c
+6)b
+7)d
+8)d
+9)b
+10)c
+
+
+
+Week 6 : Programming Assignment 1
+
+public class Question61 extends Thread
+
+ { 
+
+       public void run()
+    {    
+    System.out.print("Thread is Running.");   }
+    
+    
+
+Week 6 : Programming Assignment 2
+
+public static void main(String[] args) 
+   {  
+        Question62 ex = new Question62();  
+        Thread t0= new Thread(ex);  
+        t0.setName("Main Thread");
+        t0.start();  
+        System.out.println("Welcome to Java Week 6 New Question.");  
+        t0.setName("Main Thread");
+    }
+
+
+
+Week 6 : Programming Assignment 3
+
+ class MyThread extends B
+ 
+ {  
+    public void run() 
+    {System.out.print("NPTEL Java week-6 new Assignment Q3");}  }
+
+
+
+
+Week 6 : Programming Assignment 4
+
+public synchronized int sum() {
+return(a+b);
+}
+
+public synchronized void inc() {
+a++;
+b++;
+}
+}
+
+
+
+
+Week 6 : Programming Assignment 5
+
+  t1.start();  
+  t1.setName("Week 6 Assignment Q5");  
+
+
+  t2.start(); 
+
+
+  t2.setName("Week 6 Assignment Q5 New");  
